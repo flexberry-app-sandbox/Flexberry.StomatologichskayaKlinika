@@ -1,0 +1,4 @@
+import IISStomatologichskaya_klinikaРегистрЗаписиEController from '../i-i-s-stomatologichskaya-klinika-регистр-записи-e';
+
+var IISStomatologichskaya_klinikaРегистрЗаписиENewController = IISStomatologichskaya_klinikaРегистрЗаписиEController;
+export default IISStomatologichskaya_klinikaРегистрЗаписиENewController;

@@ -1,0 +1,45 @@
+﻿{
+  "name": "IISStomatologichskaya_klinikaОказаниеУслуг",
+  "modelName": "i-i-s-stomatologichskaya-klinika-оказание-услуг",
+  "className": "ОказаниеУслуг",
+  "nameSpace": "IIS.Stomatologichskaya_klinika",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-stomatologichskaya-klinika-сотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-stomatologichskaya-klinika-услуга",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "запись",
+      "relatedTo": "i-i-s-stomatologichskaya-klinika-запись",
+      "inverse": "оказаниеУслуг"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОказаниеУслугE",
+      "modelName": "i-i-s-stomatologichskaya-klinika-оказание-услуг",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

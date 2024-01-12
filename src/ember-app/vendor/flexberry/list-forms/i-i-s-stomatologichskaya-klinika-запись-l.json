@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomatologichskaya-klinika-запись-e",
+  "editForm": "i-i-s-stomatologichskaya-klinika-запись-e",
+  "external": false,
+  "caption": "Запись",
+  "name": "IISStomatologichskaya_klinikaЗаписьL",
+  "className": "ЗаписьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomatologichskaya-klinika-запись",
+      "modelProjection": "ЗаписьL"
+    }
+  ]
+}

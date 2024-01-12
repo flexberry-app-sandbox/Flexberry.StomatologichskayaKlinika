@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISStomatologichskaya_klinikaОплата",
+  "modelName": "i-i-s-stomatologichskaya-klinika-оплата",
+  "className": "Оплата",
+  "nameSpace": "IIS.Stomatologichskaya_klinika",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "оплачено",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "типОплаты",
+      "type": "i-i-s-stomatologichskaya-klinika-тип-оплаты",
+      "flexberryType": "ТипОплаты",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "запись",
+      "relatedTo": "i-i-s-stomatologichskaya-klinika-запись",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОплатаE",
+      "modelName": "i-i-s-stomatologichskaya-klinika-оплата",
+      "attrs": [
+        {
+          "name": "оплачено",
+          "caption": "Оплачено",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОплатаL",
+      "modelName": "i-i-s-stomatologichskaya-klinika-оплата",
+      "attrs": [
+        {
+          "name": "оплачено",
+          "caption": "Оплачено",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

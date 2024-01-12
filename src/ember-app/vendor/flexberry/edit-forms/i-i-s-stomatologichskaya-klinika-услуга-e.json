@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISStomatologichskaya_klinikaУслугаE",
+  "className": "УслугаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomatologichskaya-klinika-услуга",
+      "modelProjection": "УслугаE"
+    }
+  ]
+}

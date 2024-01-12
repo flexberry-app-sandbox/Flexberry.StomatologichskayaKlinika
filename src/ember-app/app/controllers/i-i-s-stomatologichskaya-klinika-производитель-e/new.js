@@ -1,0 +1,4 @@
+import IISStomatologichskaya_klinikaПроизводительEController from '../i-i-s-stomatologichskaya-klinika-производитель-e';
+
+var IISStomatologichskaya_klinikaПроизводительENewController = IISStomatologichskaya_klinikaПроизводительEController;
+export default IISStomatologichskaya_klinikaПроизводительENewController;

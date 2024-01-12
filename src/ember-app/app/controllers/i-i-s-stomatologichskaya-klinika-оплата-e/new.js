@@ -1,0 +1,4 @@
+import IISStomatologichskaya_klinikaОплатаEController from '../i-i-s-stomatologichskaya-klinika-оплата-e';
+
+var IISStomatologichskaya_klinikaОплатаENewController = IISStomatologichskaya_klinikaОплатаEController;
+export default IISStomatologichskaya_klinikaОплатаENewController;

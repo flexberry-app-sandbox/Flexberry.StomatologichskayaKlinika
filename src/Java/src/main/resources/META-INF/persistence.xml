@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Stomatologichskaya_klinika.model.Zapis</class>
+        <class>Stomatologichskaya_klinika.model.SostavUslugi</class>
+        <class>Stomatologichskaya_klinika.model.Klient</class>
+        <class>Stomatologichskaya_klinika.model.Dolzhnost</class>
+        <class>Stomatologichskaya_klinika.model.Kabinet</class>
+        <class>Stomatologichskaya_klinika.model.Usluga</class>
+        <class>Stomatologichskaya_klinika.model.Material</class>
+        <class>Stomatologichskaya_klinika.model.OkazanieUslug</class>
+        <class>Stomatologichskaya_klinika.model.Dokumenty</class>
+        <class>Stomatologichskaya_klinika.model.Proizvoditel</class>
+        <class>Stomatologichskaya_klinika.model.Oplata</class>
+        <class>Stomatologichskaya_klinika.model.Sotrudnik</class>
+        <class>Stomatologichskaya_klinika.model.RegistrZapisi</class>
+        <class>Stomatologichskaya_klinika.model.FlexberryAdvLimit</class>
+        <class>Stomatologichskaya_klinika.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Stomatologichskaya_klinika.model.NewPlatformFlexberryServicesLock</class>
+        <class>Stomatologichskaya_klinika.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

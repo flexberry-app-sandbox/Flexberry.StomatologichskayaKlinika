@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISStomatologichskaya_klinikaМатериал",
+  "modelName": "i-i-s-stomatologichskaya-klinika-материал",
+  "className": "Материал",
+  "nameSpace": "IIS.Stomatologichskaya_klinika",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодМатериала",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "производитель",
+      "relatedTo": "i-i-s-stomatologichskaya-klinika-производитель",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "МатериалE",
+      "modelName": "i-i-s-stomatologichskaya-klinika-материал",
+      "attrs": [
+        {
+          "name": "кодМатериала",
+          "caption": "Код материала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "МатериалL",
+      "modelName": "i-i-s-stomatologichskaya-klinika-материал",
+      "attrs": [
+        {
+          "name": "кодМатериала",
+          "caption": "Код материала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

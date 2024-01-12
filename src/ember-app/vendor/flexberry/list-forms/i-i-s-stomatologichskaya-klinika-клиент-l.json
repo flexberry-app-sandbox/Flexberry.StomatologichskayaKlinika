@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomatologichskaya-klinika-клиент-e",
+  "editForm": "i-i-s-stomatologichskaya-klinika-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISStomatologichskaya_klinikaКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomatologichskaya-klinika-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

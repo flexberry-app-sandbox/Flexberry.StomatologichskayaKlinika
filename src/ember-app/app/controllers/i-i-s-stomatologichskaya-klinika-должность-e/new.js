@@ -1,0 +1,4 @@
+import IISStomatologichskaya_klinikaДолжностьEController from '../i-i-s-stomatologichskaya-klinika-должность-e';
+
+var IISStomatologichskaya_klinikaДолжностьENewController = IISStomatologichskaya_klinikaДолжностьEController;
+export default IISStomatologichskaya_klinikaДолжностьENewController;

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomatologichskaya-klinika-услуга-e",
+  "editForm": "i-i-s-stomatologichskaya-klinika-услуга-e",
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISStomatologichskaya_klinikaУслугаL",
+  "className": "УслугаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomatologichskaya-klinika-услуга",
+      "modelProjection": "УслугаL"
+    }
+  ]
+}

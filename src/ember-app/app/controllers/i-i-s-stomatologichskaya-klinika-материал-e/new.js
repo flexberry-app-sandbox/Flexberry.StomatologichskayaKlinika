@@ -1,0 +1,4 @@
+import IISStomatologichskaya_klinikaМатериалEController from '../i-i-s-stomatologichskaya-klinika-материал-e';
+
+var IISStomatologichskaya_klinikaМатериалENewController = IISStomatologichskaya_klinikaМатериалEController;
+export default IISStomatologichskaya_klinikaМатериалENewController;

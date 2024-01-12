@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomatologichskaya-klinika-производитель-e",
+  "editForm": "i-i-s-stomatologichskaya-klinika-производитель-e",
+  "external": false,
+  "caption": "Производитель",
+  "name": "IISStomatologichskaya_klinikaПроизводительL",
+  "className": "ПроизводительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomatologichskaya-klinika-производитель",
+      "modelProjection": "ПроизводительL"
+    }
+  ]
+}

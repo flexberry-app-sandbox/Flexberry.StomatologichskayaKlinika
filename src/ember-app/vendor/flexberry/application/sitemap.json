@@ -1,0 +1,85 @@
+﻿{
+  "applicationCaption": "Stomatologichskaya_klinika",
+  "applicationTitle": "Stomatologichskaya_klinika",
+  "items": [
+    {
+      "link": null,
+      "menuName": "stomatologichskaya-klinika",
+      "caption": "Stomatologichskaya_klinika",
+      "title": "Stomatologichskaya_klinika",
+      "children": [
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-запись-l",
+          "menuName": null,
+          "caption": "Запись",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-кабинет-l",
+          "menuName": null,
+          "caption": "Кабинет",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-материал-l",
+          "menuName": null,
+          "caption": "Материал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-производитель-l",
+          "menuName": null,
+          "caption": "Производитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-оплата-l",
+          "menuName": null,
+          "caption": "Оплата",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomatologichskaya-klinika-регистр-записи-l",
+          "menuName": null,
+          "caption": "Регистр записи",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

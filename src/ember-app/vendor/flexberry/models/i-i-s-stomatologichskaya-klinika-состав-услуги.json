@@ -1,0 +1,70 @@
+﻿{
+  "name": "IISStomatologichskaya_klinikaСоставУслуги",
+  "modelName": "i-i-s-stomatologichskaya-klinika-состав-услуги",
+  "className": "СоставУслуги",
+  "nameSpace": "IIS.Stomatologichskaya_klinika",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "единицы",
+      "type": "i-i-s-stomatologichskaya-klinika-единицы",
+      "flexberryType": "Единицы",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "материал",
+      "relatedTo": "i-i-s-stomatologichskaya-klinika-материал",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-stomatologichskaya-klinika-услуга",
+      "inverse": "составУслуги"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СоставУслугиE",
+      "modelName": "i-i-s-stomatologichskaya-klinika-состав-услуги",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "единицы",
+          "caption": "Единицы",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

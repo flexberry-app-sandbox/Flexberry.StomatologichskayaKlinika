@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Производитель",
+  "name": "IISStomatologichskaya_klinikaПроизводительE",
+  "className": "ПроизводительE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomatologichskaya-klinika-производитель",
+      "modelProjection": "ПроизводительE"
+    }
+  ]
+}
